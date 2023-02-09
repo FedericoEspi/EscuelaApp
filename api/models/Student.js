@@ -110,3 +110,4 @@ export const Student = sequelize.define("students", {
     type: DataTypes.INTEGER,
   },
 });
+

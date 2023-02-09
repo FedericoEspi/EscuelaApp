@@ -20,4 +20,4 @@ try{
 }
 }
 
-main()
+main();

@@ -156,4 +156,4 @@ export const deleteStudent  = async (req, res) => {
   } catch {
     return res.status(500).json({message: error.message})
   }
-}
+};

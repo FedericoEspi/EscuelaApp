@@ -1,9 +1,11 @@
 import './App.css';
+import { Loguin } from "./componnents/Loguin.js"
+import { UserRegister } from './componnents/UserRegister.js';
 
 function App() {
   return (
-    <div className="App">
-      <p>Hola mundo</p>
+    <div>
+      <UserRegister/>
     </div>
   );
 }
